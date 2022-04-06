@@ -42,6 +42,7 @@ RUN set -ex \
     libc6-compat \
     liboping \
     mtr \
+    nano \
     net-snmp-tools \
     netcat-openbsd \
     nftables \
@@ -50,6 +51,7 @@ RUN set -ex \
     nmap-nping \
     nmap-scripts \
     openssl \
+    openssh \
     py3-pip \
     py3-setuptools \
     scapy \
@@ -64,7 +66,9 @@ RUN set -ex \
     git \
     zsh \
     websocat \
-    swaks
+    swaks \
+    tmux \
+    kubectl 
 
 # Installing httpie ( https://httpie.io/docs#installation)
 RUN pip3 install --upgrade httpie
